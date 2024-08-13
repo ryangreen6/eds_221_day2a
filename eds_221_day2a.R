@@ -141,7 +141,11 @@ fruit[2,1]
 
 ## now that value is pineapple yum
 
+## now let's say we want to see only the mass of a pineapple
 
+fruit[fruit$type == "pineapple",]$mass
+
+## you have to add the comma after "pineapple" to tell R that it is looking for a row. 
 
 
 
